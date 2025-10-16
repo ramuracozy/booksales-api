@@ -7,10 +7,5 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
 
 class Book extends Model
 {
-    protected $fillable = ['title', 'author_id', 'genre', 'year'];
-
-    public function author(): BelongsTo
-    {
-        return $this->belongsTo(Author::class);
-    }
+    protected $fillable = ['title', 'description', 'price', 'stock', 'cover_foto', 'genre_id', 'author_id'];
 }

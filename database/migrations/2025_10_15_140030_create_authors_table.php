@@ -15,6 +15,8 @@ return new class extends Migration
             $table->id();
             $table->string('name');
             $table->string('nationality');
+            $table->string('photo')->nullable();
+            $table->text('bio')->nullable();
             $table->timestamps();
         });
     }
