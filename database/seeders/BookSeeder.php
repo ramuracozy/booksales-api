@@ -16,8 +16,8 @@ class BookSeeder extends Seeder
             'price' => 120000,
             'stock' => 50,
             'cover_foto' => 'laskar_pelangi.jpg',
-            'genre_id' => 2,
-            'author_id' => 2,
+            'genre_id' => 1,
+            'author_id' => 1,
         ]);
         Book::create([
             'title' => 'Bumi',
@@ -25,8 +25,8 @@ class BookSeeder extends Seeder
             'price' => 95000,
             'stock' => 40,
             'cover_foto' => 'bumi.jpg',
-            'genre_id' => 3,
-            'author_id' => 3,
+            'genre_id' => 2,
+            'author_id' => 2,
         ]);
         Book::create([
             'title' => 'Dilan 1990',
@@ -34,8 +34,8 @@ class BookSeeder extends Seeder
             'price' => 85000,
             'stock' => 35,
             'cover_foto' => 'dilan_1990.jpg',
-            'genre_id' => 4,
-            'author_id' => 4,
+            'genre_id' => 3,
+            'author_id' => 3,
         ]);
         Book::create([
             'title' => 'Negeri 5 Menara',
@@ -43,8 +43,8 @@ class BookSeeder extends Seeder
             'price' => 110000,
             'stock' => 25,
             'cover_foto' => 'negeri_5_menara.jpg',
-            'genre_id' => 2,
-            'author_id' => 5,
+            'genre_id' => 4,
+            'author_id' => 4,
         ]);
         Book::create([
             'title' => 'Supernova: Ksatria, Puteri, dan Bintang Jatuh',
@@ -53,7 +53,7 @@ class BookSeeder extends Seeder
             'stock' => 20,
             'cover_foto' => 'supernova.jpg',
             'genre_id' => 5,
-            'author_id' => 6,
+            'author_id' => 5,
         ]);
     }
 }
